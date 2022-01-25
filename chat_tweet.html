@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Chats & Tweets</title>
+<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="chat_tweet.css">
+<script src="chat_tweet.js"></script>
+    </head>
+
+    <body>
+            <div class="text-center">
+                <marquee direction="left" scrollamount="7">
+                    ***LOGIN AND KNOW WHATS GOING IN THE WORLD***
+                </marquee>
+                <div class="jumbotron">
+                   
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                            <center>
+                                <img class="img-responsive tree" src="tree.gif">
+                            </center>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                            <center>
+                        <img class="img-responsive" id="logo" src="chats_tweets.png">
+                    <h1>Chats & Tweets</h1>
+                    <button type="button" data-toggle="modal" data-target="#LoginModal" id="login">Login</button>
+                    <br><br>
+                    </center>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <center>
+                            <img class="img-responsive tree" src="tree.gif">
+                        </center>
+                    </div>
+
+                    <!-- modal -->
+                    <center>
+
+                    <div class="modal fade" id="LoginModal">
+                        <div class="modal-dailog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h2>LOGIN</h2>
+                                </div>
+                                <div class="modal-body">
+                                    <br>
+                                    <input type="text" id="user_name" class="form-control" placeholder="User Name">
+                                    <br><br>
+                                    <button id="login_button" class="btn btn-primary" onclick="adduser()">Log in</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </center>
+                </div>
+            </div>
+    </body>
+</html>

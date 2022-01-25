@@ -1,0 +1,44 @@
+h1{
+    font-family: 'Cookie', cursive;
+}
+.jumbotron{
+    height: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-style:double;
+    border-width: 10px;
+}
+marquee{
+    height: 25px;
+    font-size: 20px;
+    background-color: gold;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-shadow: 2px 2px #FF0000;
+}
+#user_name{
+    width: 50%;
+    border: black solid 1px;
+    box-shadow: grey 2px 5px;
+    color: black
+}
+#login_button{
+    width: 20%;
+    border: black solid 2px;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    height:fit-content;
+}
+#login{
+    background-color:lightpink;
+    width: 80%;
+    font-size: 17px;
+    border: darkblue solid 1px;
+    box-shadow: lightblue 2px 4px;
+}
+.tree{
+    width: 100%;
+}
